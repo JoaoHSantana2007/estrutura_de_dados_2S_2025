@@ -1,0 +1,23 @@
+O resultado de 7 X 0 = 0
+O resultado de 7 X 1 = 7
+O resultado de 7 X 2 = 14
+O resultado de 7 X 3 = 21
+O resultado de 7 X 4 = 28
+O resultado de 7 X 5 = 35
+O resultado de 7 X 6 = 42
+O resultado de 7 X 7 = 49
+O resultado de 7 X 8 = 56
+O resultado de 7 X 9 = 63
+O resultado de 7 X 10 = 70
+--------------------------
+O resultado de 9 X 0 = 0
+O resultado de 9 X 1 = 9
+O resultado de 9 X 2 = 18
+O resultado de 9 X 3 = 27
+O resultado de 9 X 4 = 36
+O resultado de 9 X 5 = 45
+O resultado de 9 X 6 = 54
+O resultado de 9 X 7 = 63
+O resultado de 9 X 8 = 72
+O resultado de 9 X 9 = 81
+O resultado de 9 X 10 = 90
