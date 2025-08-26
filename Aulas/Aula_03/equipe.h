@@ -4,7 +4,7 @@
 typedef struct {
     int Posicao;
     char Estado[32];
-    char Time[32];
+    char Equipe[32];
     int Pontos;
     int J; // N° de jogos
     int V; // N° de vitórias
@@ -14,6 +14,6 @@ typedef struct {
     int GC; // Gols sofridos
     int SD; // Saldo de gols
     float Aproveitamento; // % de pontos conquistados em relação ao total de pontos disputados
-} Equipe;
+} Time;
 
 #endif
