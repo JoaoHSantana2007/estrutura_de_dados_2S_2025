@@ -4,3 +4,8 @@
 
 #include "equipe.h"
 
+int main() {
+
+    Equipe * tabela = LerDados("data\\tabela.csv");
+
+}
