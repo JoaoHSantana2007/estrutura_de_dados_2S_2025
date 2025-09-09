@@ -24,5 +24,6 @@ Equipe * LerDados(char * NomeArquivo); // retornar vetor de equipes
 
 int getPontos(Equipe * T, int Posicao);
 float getAproveitamento(Equipe * T, char * Nome);
+void Insertiontort(Equipe * V, int N);
 
 #endif

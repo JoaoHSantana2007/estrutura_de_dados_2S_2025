@@ -60,3 +60,23 @@ float getAproveitamento(Equipe * T, char * Nome) {
     }
 
 }
+
+void Insertiontort(Equipe * V, int N){
+
+    Equipe chave; // Elemento que sera insirido na parte ordenada
+    int i; // Posicao (ou Cordenada) do elemento chave 
+    int j; // Posicao de emento da "parte ordenada" que sera comparada com chave 
+
+    for(i = 1; i < N; i++){
+        chave = V[i];
+        j = i - 1;
+
+        while (j >= 0 && strcmp(V[j].Nome, chave.Nome) > 0){
+            V[j + 1] = V[j];
+            j--;
+        }
+
+        V[j + 1] = chave; // Copiando a chave do no ultimo lugar modificado      
+    }
+
+}
