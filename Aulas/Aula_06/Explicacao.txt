@@ -1,0 +1,35 @@
+
+Quik Sort 
+
+Aplique o quicksort para ordenar o vetor [3, 6, 4, 5, 1, 7, 2].
+
+Para isso devemos usar PIVO.
+
+ ______________________________________________
+|                 | |      | |                 |
+| MENORES QUE PIVO| | PIVO | |MAIORES QUE PIVO |
+|_________________|_|______|_|_________________|
+
+EX: 
+
+    [3, 6, 4, 5, 1, 7, 2]
+    Neste Caso usaremos o numero [5] como pivo.
+
+    Apos definir o pivo separamos os menores dos maiores como descrito acima.
+        Para isso comparamos os numeros de i e j com o pivo.
+    
+    Apos os separamento fazemos a orgazicao numero por numero
+
+ __________________________________________________________________
+|                |       |       |        |       |      |        |
+|Ordem       0   |   1   |   2   |    3   |   4   |   5  |    6   |
+|-----------------------------------------------------------------|
+|          i = 0 | i = 1 | i = 2 |  i = 3 | j = 4 | j = 5|  j = 6 |
+|Numeros     3   |   6   |   4   |  [5]   |  1    |  7   |   2    |
+|-----------------------------------------------------------------|
+|            1   |  [2]  |  [4]  |   3    |  ok   |  6   |   [7]  |
+|-----------------------------------------------------------------|
+|            ok  |   ok  |   3   |  [4]   |  ok   |  ok  |   ok   |
+|________________|_______|_______|________|_______|______|________|
+    
+
