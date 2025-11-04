@@ -10,4 +10,14 @@ typedef struct Item {
     struct Item *Posterior;
 } Item;
 
+typedef struct Lista {
+    int Tamanho;
+    struct Item * Inicio;
+    struct Item * Fim;
+} Lista;
+
+
+Item * criarItem(char * Titulo, char * Autor, int Ano);
+void exibirInicio(Lista * L);
+
 #endif

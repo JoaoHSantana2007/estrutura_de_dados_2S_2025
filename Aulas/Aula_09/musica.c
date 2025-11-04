@@ -20,3 +20,16 @@ Item * criarItem(char * Titulo, char * Autor, int Ano) {
     
     return X;
 }
+
+void exibirInicio(Lista * L){
+
+    Item * Atual = L->Inicio;
+
+    for (int i = 0; i < L->Tamanho; i++) {
+        printf("%d \t %s \n", i, Atual->Titulo);
+        Atual = Atual->Posterior;
+    }
+
+    printf("\n");
+
+}
