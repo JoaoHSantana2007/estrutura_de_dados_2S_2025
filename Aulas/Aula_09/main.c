@@ -8,8 +8,8 @@ int main() {
 
     Item *D = criarItem("Aquarela", "Toquinho", 1983);
     Item *E = criarItem("Romaria", "Renato Teixeira", 1978);
-    Item *F = criarItem("Eu nasci há dez mil anos atrás", "Raul Seixas", 1976);
-    Item *G = criarItem("Cálice", "Chico Buarque e Gilberto Gil", 1978);
+    Item *F = criarItem("Eu nasci ha dez mil anos atras", "Raul Seixas", 1976);
+    Item *G = criarItem("Calice", "Chico Buarque e Gilberto Gil", 1978);
     Item *H = criarItem("Tempo perdido", "Renato Russo", 1986);
 
     //Construindo o encadeamento
