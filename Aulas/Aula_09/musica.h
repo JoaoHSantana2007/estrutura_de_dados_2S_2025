@@ -19,5 +19,7 @@ typedef struct Lista {
 
 Item * criarItem(char * Titulo, char * Autor, int Ano);
 void exibirInicio(Lista * L);
+void exibirFinal(Lista * L);
+void exibir1978(Lista * L, int Ano);
 
 #endif

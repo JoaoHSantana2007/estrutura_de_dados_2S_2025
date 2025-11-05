@@ -41,5 +41,7 @@ int main() {
     PlayList->Fim = H;
 
     exibirInicio(PlayList);
+    exibirInicio(PlayList);
+    exibir1978(PlayList, 1978);
 
 }

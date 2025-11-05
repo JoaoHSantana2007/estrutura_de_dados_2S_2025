@@ -26,8 +26,37 @@ void exibirInicio(Lista * L){
     Item * Atual = L->Inicio;
 
     for (int i = 0; i < L->Tamanho; i++) {
-        printf("%d \t %s \n", i, Atual->Titulo);
+        printf("%d \t %s \n", i + 1, Atual->Titulo);
         Atual = Atual->Posterior;
+    }
+
+    printf("\n");
+
+}
+
+void exibirFinal(Lista * L){
+
+    Item * Atual = L->Fim;
+
+    for (int i = 0; i < L->Tamanho; i++) {
+        printf("%d \t %s \n", i + 1, Atual->Titulo);
+        Atual = Atual->Anterior;
+    }
+
+    printf("\n");
+
+}
+
+void exibir1978(Lista * L, int Anodesejado){
+
+    Item * Atual = L->Inicio;
+
+    for (int i = 0; i < L->Tamanho; i++) {
+        if (Atual->Ano == A) {
+            printf("%d \t %s \n", i + 1, Atual->Titulo);
+            Atual = Atual->Posterior;
+        }
+        
     }
 
     printf("\n");
